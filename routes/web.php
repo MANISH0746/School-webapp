@@ -18,3 +18,7 @@ use Illuminate\Support\Facades\Route;
 // });
 
 Route::view('/','landing')->name('landingPage');
+Route::view('/example','example');
+Route::view('/auth','auth');
+
+
