@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\AdminController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -18,7 +20,7 @@ use Illuminate\Support\Facades\Route;
 // });
 
 Route::view('/','landing')->name('landingPage');
-Route::view('/example','example');
-Route::view('/auth','auth');
+Route::view('/example-page','example-page');
+Route::view('/example-auth','example-auth');
 
 
